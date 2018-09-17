@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    h1,h2,h3,h4.h5,p,body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+        strong{
+            color:red;
+        }
+        /* 后代选择器 */
+        p strong{
+            color: blue;
+        }
+        strong#s{
+            color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <p><strong> 中国共产党 </strong></p>
+    <strong>中国共产党</strong><br/>
+    <strong id="s"> 中国共产党 </strong>
+</body>
+</html>
